@@ -9,7 +9,7 @@ namespace Test.Models
     {
         public int PurchaseID { get; set; }
         public int ItemID { get; set; }
-        public DateTime Date { get; set; }
-        public DateTime Time { get; set; }
+        public string Date { get; set; }
+        public string Time { get; set; }
     }
 }
