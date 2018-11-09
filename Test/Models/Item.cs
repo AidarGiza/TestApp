@@ -7,6 +7,10 @@ namespace Test.Models
 {
     public class Item
     {
-        public int id { set; get; }
+        public int ItemID { get; set; }
+        public string ItemName { get; set; }
+        public decimal ItemCost { get; set; }
+        public int ItemSizeID { get; set; }
+        public string Description { get; set; }
     }
 }
